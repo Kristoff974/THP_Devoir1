@@ -1,0 +1,59 @@
+#page_complete
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bandeau_haut
+{
+  align-self: flex-end;
+  height: 158px;
+}
+.bandeau_milieu
+{
+  align-self: center;
+  height: 110px;
+}
+.search_bar
+{
+  align-self: center;
+}
+
+.input
+ { 
+  margin: .4rem 0;
+}
+
+#boutons
+{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bandeau_bas
+{
+  align-self: center;
+  margin: auto;
+  height: 110px;
+}
+.pied1
+{height: 20px;
+  align-self: left;
+  background-color: lightgray;
+  color: gray;
+}
+.bandeau_blanc
+{
+  height: 100px;
+}
+#pied2
+{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightgray;
+  color: gray;
+}
